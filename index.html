@@ -2,86 +2,78 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-    <title> Город Седона</title>
-    /#...#/s
+     <title> Город Седона</title>
+     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
     <header class="page-header">
       <nav class="navigation">
-        <a class="logo" href="index.html" aria-current="page">
-          <img class="page-heder-logo" src="img/logo.pnd" width="150" height="50" alt="Логотип сайта небольшого городка Седона">
-          /#...#/
+        <a class="navigation-logo" href="index.html" aria-current="page">
+          <img class="page-header-logo" src="img/logo.svg" width="180" height="100" alt="Логотип сайта небольшого городка Седона">
         </a>
         <ul class="site-navigation-list">
           <li class="navigation-item">
-            <a class="navigation-link-current" href="active.html">Главная></a>
+            <a class="navigation-link navigation-link-current" href="active.html">Главная></a>
           </li>
             <li class="navigation-item">
               <a class="navigation-link"href="about.html">O Седоне</a>
             </li>
             <li class="navigation-item">
-              <a class="navigation-link"href="hotels.html">Гостиницы></a>
+              <a class="navigation-link"href="catalog.html">Гостиницы></a>
           </li>
         </ul>
         <ul class="navigation-list navigation-user">
          <li class="navigation-user-item">
-          <a class="navigation-user-link-search" href="#"></a>
+          <a class="navigation-user-link navigation-user-link-search" href="#"></a>
+          <span class="visually-hidden">Поиск</span>
         </li>
         <li class="navigation-item">
-          <a class="navigation-link" href="#">
+          <a class="navigation-user-link navigation-user-link-favorite" href="#">
             <span class="visually-hidden">В избраное</span>
-            /#...#/
+            <span class="notification-badge">12</span>
           </a>
         <li class="navigation-user-item">
           <a class="navigation-user-link-favorite" href="catalog.html"></a>
-          <button class="button" type="button">Хочу сюда!</button>
+            <form action="https://echo.htmlacademy.ru/" target="_blank"></form>
+          <button>Хочу сюда!</button>
+        </form>
         </li>
        </ul>
       </nav>
     </header>
-     /#...#/
     <main class="main-index">
-      <section class="main-figure">
-        <h1 class="<ul class="advantages-list">
-          <li class="advantages-item">
-            <h3 class="advantages-title">">Седона</h1>
-        <img src="images/logo.png" alt="Логотип Добро пожаловать в великолепную Сидону потому что Град-Каньен ...">
-      </section>
+        <h1 class="visually-hidden">Городок Седона</h1>
+        <img class="main-figure"src="images/logo.png" alt="Логотип Добро пожаловать в великолепную Седону, потому что Гранд-Каньон - отстой!">
       <section class="advantages">
           <h2  class="advantages-title">Седона — небольшой городок в Аризоне,заслуживающий большего!</h2>
           <p class="advantages-discription">Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!</p>
-      </section>
-      <section class="advantages">
           <h3 class="visually-hidden">Преимущество</h3>
            <ul class="advantages-list">
             <li class="advantages-item">
-             <h4 class="advantages-title" Настоящий городок></h4>
+             <h3 class="advantages-title" Настоящий городок></h3>
              <p class="advantages-description" Седона — не аттракцион для туристов, там течёт своя жизнь></p>
-              <img src="img/placeholder.svg" alt="Описание картинки">
+              <img src="img/placeholder.svg" alt="Описание картинки"> width="600" height="400">
             </li>
             <li class="advantages-item">
-             <h4 class="advantages-title" Небольшая площадь></h4>
+             <h3 class="advantages-title" Небольшая площадь></h3>
               <p class="advantages-description">Все достопримечательности находятся очень близко></p>
            </li>
            <li class="advantages-item">
-             <h4 class="advantages-title" Красивая дорога></h4>
+             <h3 class="advantages-title" Красивая дорога></h3>
               <p class="advantages-description">Ехать в Сидону из Лас-Вегаса совсем не скучно!></p>
            </li>
            <li class="advantages-item">
-             <h4 class="advantages-title-phote" Мало туристов></h4>
+             <h3 class="advantages-title-phote" Мало туристов></h3>
               <p class="advantages-description">Большинство едет к Град Каньен и толпится в там></p>
            </li>
-            <img src="img/placeholder.svg" alt="Описание картинки">
-
+            <img class="advantages-description" src="img/placeholder.svg" alt="Описание картинки">
+          </li>
            <li class="advantages-item">
-             <h4 class="advantages-title" Там есть мост дьявола></h4>
+             <h3 class="advantages-title" Там есть мост дьявола></h3>
               <p class="advantages-description">Да,по нему можно пойти!<b>Если вы осмелитесь конечно</b></p>
            </li>
           </ul>
-          /#...#/
-          <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">HTML и CSS. Профессиональная вёрстка сайтов</a>».</p>
-
-      <section class="advantages">
+       <nav class="advantages">
           <h3 class="visually-hidden">Преимущества</h3>
           <ul class="advantages-list">
             <li class="advantages-item">
@@ -100,110 +92,16 @@
               <p class="advantages-description">Не только китайского,но и настоящего местного производства></p>
             </li>
             <h4 class="#">Заинтересовались?</h4>
-            <p class="#"Укажите предполагаемые даты поездки,и мы покажем вам лучшие предложения гостиниц в Седоне></p>
-              <a class="button button-feedback" href="#">Поиск гостиницы в Сидоне</a>
-              /#...#/
+            <p class="advantages-description"Укажите предполагаемые даты поездки,и мы покажем вам лучшие предложения гостиниц в Седоне></p>
+            <form action="https://echo.htmlacademy.ru"_blank">
+              <button>Поиск гостиницы в Сидоне</button>
+              </form>
             </li>
           </ul>
-      </section>
-       /#...#/
-      <section>
-        <h3 class="advantages-title"Гостиницы Седоны></h3>
-        <ul class="advantages-list">
-          <li class="advantages-item">
-            <h4 class="advantages-title">
-      ?#...#/
-      <section class="#">Найдено гостиниц:38>
-
-      </section>
-      <section class="product">
-        <ul class="product-list-hotels">
-          <li class="product-list-card-hotels">
-            <p class="product-card-type-hotels">Гостиница</p>
-            <p class="product-card-...">От 4000 Р</p>
-            <a class="product-card-button" href="#">Подробнее</a>
-            <a class="#" href="#">В избранное</a>
-            <p class="prpduct-card-...">
-            <span class="#">4 звезды</span></p>
-            <p class="product-card-...">Рейтинг:<span>8,5</span></p>
-            </li>
-            <li class="product-card">
-             <a class="product-card-link" href="#">
-              <img class="product-card-..." src="#" alt="Гора на фоне неба с радугой">
-              <h4 class="product-card-title">...</h4>
-            </li>
-            /#...#/
-            <ul class="product-list-hotels">
-              <li class="product-list-card-hotels">
-                <p class="product-card-type-hotels">Гостиница</p>
-                <p class="product-card-...">От 5000 Р</p>
-                <a class="product-card-button" href="#">Подробнее</a>
-                <a class="#" href="#">В избранное</a>
-                <p class="prpduct-card-...">
-                <span class="#">4 звезды</span></p>
-                <p class="product-card-...">Рейтинг:<span>9,2</span></p>
-                </li>
-                <li class="product-card">
-                  <a class="product-card-link" href="#">
-                   <img class="product-card-..." src="#" alt="Горный хребет в ясную погоду">
-                   <h4 class="product-card-title">...</h4>
-                 </li>
-            /#...#/
-            <li class="product-list-card-hotels">
-              <p class="product-card-type-hotels">Гостиница</p>
-              <p class="product-card-...">От 5000 Р</p>
-              <a class="product-card-button" href="#">Подробнее</a>
-              <a class="#" href="#">В избранное</a>
-              <p class="prpduct-card-...">
-              <span class="#">4 звезды</span></p>
-              <p class="product-card-...">Рейтинг:<span>9,2</span></p>
-              </li>
-              <li class="product-card">
-                <a class="product-card-link" href="#">
-                 <img class="product-card-..." src="#" alt="Горный хребет в ясную погоду">
-                 <h4 class="product-card-title">...</h4>
-               </li>
-
-        </ul>
-      </section>
-      /#...#/
-      <section class="#">
-        <ol class="slider-pagination">
-          <li class="slider-pagination-item">
-            <button class="slider-pagination-button slider-pagination-button-current" type="button">
-              <span class="visually-hidden">1 фото</span>
-            </button>
-          </li>
-          <li class="slider-pagination-item">
-            <button class="slider-pagination-button" type="button">
-              <span class="visually-hidden">2 фото</span>
-            </button>
-          </li>
-          <li class="slider-pagination-item">
-            <button class="slider-pagination-button" type="button">
-              <span class="visually-hidden">3 фото</span>
-            </button>
-          </li>
-          <li class="slider-pagination-item">
-            <button class="slider-pagination-button" type="button">
-              <span class="visually-hidden">4 фото</span>
-            </button>
-          </li>
-        </ol>
-       /# ...#/
-      </section>
-      <section>
-        /#...#/
-
-      </section>
-
-
-
-      </section>
+        </nav>
       <article class="newsletter">
-        <img clas="#" src="#" alt="Описание картинки">
-         <h4 class="#">Подпишитесь на рассылку</h4>
-          <p class="#">Только полезная информация и ни какого спама,честное бойскаутское</p>
+         <h4 class="newsletter-socials">Подпишитесь на рассылку</h4>
+          <p class="newsletter-descriptions-socials">Только полезная информация и ни какого спама,честное бойскаутское</p>
            <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
             <label for="newsletter-email"></label>
              <input class="field" placeholder="Ваш е-mail" type="email" name="newsletter-email" id="newsletter-email" required>
@@ -214,7 +112,7 @@
       </article>
     </main>
     <footer class="header-footer-social">
-      <h3 class="visually-hidden">Мы в социальных сетях</h3>
+      <h5 class="visually-hidden">Мы в социальных сетях</h5>
       <ul class="footer-social-list">
         <li class="footer-social-item">
           <a class="button" href="#">
@@ -233,8 +131,8 @@
         </li>
       </ul>
       <a class="footer-contact-phone" href="tel:+78128121212">+7 812 812-12-12</a>
-      <a class="logo" href="#">
-        <img src="#" alt="Описание картинки">.html academy
+      <a class="navigation-nav-logo" href="index.html" aria-current="page">
+        <img class="footer-header-logo" src="img/logo.svg" width="30" height="50" alt="Логотип сайта htmlacademy">
       </a>
    </footer>
  </body>
