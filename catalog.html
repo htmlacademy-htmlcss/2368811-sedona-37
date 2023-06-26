@@ -79,8 +79,6 @@
           </label>
           </li>
          </ul>
-       </fieldset>
-      <fieldset class="catalog-filter-group" action="https://echo.htmlacademy.ru/" method="get">
           <legend class="catalog-filter-title">Тип жилья</legend>
           <ul class="catalog-filter-list">
             <li class="catalog-filter-item">
@@ -106,9 +104,9 @@
           <input type="range" min="1" max="100" value="65" class="slider" id="myRange">
         </div>
         <button class="button" type="submit">Применить</button>
-        <button class="button" type="recet">Сбросить</button>
+        <button class="button" type="reset">Сбросить</button>
+        </fieldset>
       </form>
-      </fieldset class="catalog-filter-group">
       </section>
       <section class="sort">
       <h2 class="container-title-view"><span>Найдено гостиниц:38></span></h2>
@@ -201,15 +199,15 @@
             <span class="visually-hidden">4 фото</span>
           </button>
         <li class="slider-pagination-item">
-            <img class="slider-pagination-ellipsis" src="images/main/ellipsis.svg">
             <button class="slider-pagination-button" type="button">
-              <span class="visually-hidden">Многоточие</span>
+              <span class="visually-hidden">Далее</span>
+              ...
             </button>
         </li>
         <li class="pagination-item">
-          <a class="pagination-link pagination-next" href="catalog.html">
+          <button class="slider-pagination-button" type="button">
             <span class="visually-hidden">10 фото</span>
-          </a>
+          </button>
         </li>
       </ol>
     </section>
@@ -217,7 +215,7 @@
      <h2 class="newsletter-subscription">Подпишитесь на рассылку</h2>
       <p class="newsletter-info">Только полезная информация и ни какого спама,честное бойскаутское</p>
        <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
-        <label for="newsletter-email">Email:</label>
+        <label for="newsletter-email">Ваш email:</label>
          <input class="field" placeholder="email@example.com" type="email" name="newsletter-email" id="newsletter-email" required>
           <button class="button newsletter-button" type="submit">
         <span class="visually-hidden">Подписаться</span>
@@ -230,7 +228,7 @@
      <ul class="footer-social-list">
      <li class="footer-social-item">
       <a class="button" href="https://vk.com/htmlacademy">
-        <img class="social-logo" src="images/footer/vkontarte.png" width="25" height="15" alt="Логотип соц.сети вконтакте">
+        <img class="social-logo" src="images/footer/vkontarte.png" width="25" height="15" alt="Логотип вконтакте">
         <span class="visually-hidden">Вконтакте</span>
       </a>
     </li>
@@ -242,7 +240,7 @@
     </li>
     <li class="footer-social-item">
       <a class="button" href="https://www.youtube.com/user/htmlacademy">
-        <img class="social-logo" src="images/footer/social.png" width="25" height="15" alt="Логотип ютуб">
+        <img class="social-logo" src="images/footer/social.png" width="25" height="15" alt="Логотип ютуб-канала">
         <span class="visually-hidden">Ютуб</span>
       </a>
     </li>
