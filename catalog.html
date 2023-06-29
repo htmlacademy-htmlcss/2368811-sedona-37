@@ -16,10 +16,10 @@
             <a class="navigation-link navigation-link-current" href="index.html">Главная></a>
           </li>
             <li class="navigation-item">
-              <a class="navigation-link"href="catalog.html">O Седоне</a>
+              <a class="navigation-link" href="catalog.html">O Седоне</a>
             </li>
             <li class="navigation-item">
-              <a class="navigation-link"href="catalog.html">Гостиницы></a>
+              <a class="navigation-link" href="catalog.html">Гостиницы></a>
           </li>
         </ul>
         <ul class="navigation-list navigation-user">
@@ -29,7 +29,7 @@
           <span class="visually-hidden">Поиск</span>
         </li>
         <li class="navigation-item">
-          <a class="navigation-user-link navigation-user-link-favorite" href="catalog.html"></a>
+          <a class="navigation-user-link navigation-user-link-favorite" href="catalog.html">
           <img class="navigation-logo-heart" src="images/header/heart.png" width="20" height="20" alt="Логотип избранное в виде сердечка"></a>
             <span class="visually-hidden">В избраное</span>
             <span class="notification-badge">12</span>
@@ -44,7 +44,7 @@
   <main class="main-catalog">
     <header class="catalog-services">
       <h1 class="visually-hidden">Гостиницы городка Седона</h1>
-    <h2 class="catalog-services-title"Гостиницы Седоны></h2>
+    <h2 class="catalog-services-title">Гостиницы Седоны></h2>
      <ul class="breadcrumbs">
       <li class="breadcrumbs-item">
         <a class="breadcrumbs-link" href="index.html">Главная</a>
@@ -79,7 +79,7 @@
           </label>
           </li>
          </ul>
-          <legend class="catalog-filter-title">Тип жилья</legend>
+          <h2 class="catalog-filter-title">Тип жилья</h2>
           <ul class="catalog-filter-list">
             <li class="catalog-filter-item">
               <label class="control">
@@ -101,20 +101,21 @@
             </li>
           </ul>
         <div class="slidecontainer">
-          <input type="range" min="1" max="100" value="65" class="slider" id="myRange">
+          <input type="range" min="1" max="100" value="1" class="slider" id="myRange">
         </div>
         <button class="button" type="submit">Применить</button>
         <button class="button" type="reset">Сбросить</button>
         </fieldset>
       </form>
       </section>
-      <section class="sort">
+      <section class="container-view">
       <h2 class="container-title-view"><span>Найдено гостиниц:38></span></h2>
       <select class="select-control" aria-label="Сортировка">
         <option value="popular">Сначала популярное</option>
         <option value="cheap">Сначала дешёвое</option>
         <option value="expensive">Сначала дорогое</option>
       </select>
+    </section>
     <section class="product">
       <ul class="product-list">
         <li class="product-card">
@@ -226,26 +227,23 @@
   <footer class="header-footer-social">
     <h3 class="visually-hidden">Мы в социальных сетях</h3>
      <ul class="footer-social-list">
-     <li class="footer-social-item">
+     <li class="footer-social-item-vkontakte">
       <a class="button" href="https://vk.com/htmlacademy">
-        <img class="social-logo" src="images/footer/vkontarte.png" width="25" height="15" alt="Логотип вконтакте">
-        <span class="visually-hidden">Вконтакте</span>
+        <img class="social-vkontakte" src="images/footer/vkontarte.png" width="24" height="14" alt="Логотип соц.сети вконтакте">
       </a>
     </li>
-    <li class="footer-social-item">
+    <li class="footer-social-item-telegram">
       <a class="button" href="https://t.me/htmlacademy">
-        <img class="social-logo" src="images/footer/telegram.png" width="25" height="15" alt="Логотип телеграмм канала">
-        <span class="visually-hidden">Телеграмм</span>
+        <img class="social-telegram" src="images/footer/telegram.png" width="24" height="14" alt="Логотип телеграмм канала">
       </a>
     </li>
-    <li class="footer-social-item">
+    <li class="footer-social-item-youtube">
       <a class="button" href="https://www.youtube.com/user/htmlacademy">
-        <img class="social-logo" src="images/footer/social.png" width="25" height="15" alt="Логотип ютуб-канала">
-        <span class="visually-hidden">Ютуб</span>
+        <img class="social-youtube" src="images/footer/social.png" width="24" height="14" alt="Логотип ютуб-канала">
       </a>
     </li>
   </ul>
-  <a class="footer-contact-phone" href="tel:+78128121212">+7 812 812-12-12</a>
+  <a class="footer-contact-phone" href="tel:+78128121212">+7 (812) 812-12-12</a>
   <a class="navigation-nav-logo" href="index.html" aria-current="page">
     <img class="footer-logo" src="images/footer/logo-2.png" width="115" height="34" alt="Логотип сайта htmlacademy">
   </a>
