@@ -94,12 +94,11 @@ img {
 
 }
 /*  section-1  advantages */
-.advantages {
+.advantages-list {
+display: flex;
+flex-wrap: wrap;
+}
 
-}
-.conteiner {
-  display: flex;
-}
 .advantages-item-city {                      /* небольшой городок */
   width: 400px;
   min-height: 385px;
@@ -245,6 +244,7 @@ section .advantages-item-bridge {                 /*  мост  */
   /* -----------------------------------section service    -------------------------------------*/
 .advantages-service {
 
+  text-align: center;
   width: 576px;
   margin: 60px auto 51px auto;
   padding: 0;
@@ -256,7 +256,7 @@ section .advantages-item-bridge {                 /*  мост  */
    /*-------------------------------------------------/жилье/-------------------------------------------------*/
 
  .advantages-item {
-  display: block;
+
   width: 400px;
   min-height: 385px;
   color: #000000;
