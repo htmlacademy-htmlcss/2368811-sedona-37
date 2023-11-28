@@ -64,12 +64,44 @@ img {
 .visually-hidden {
   display: none;
 }
+
 .page-header {
 
 }
+
+.navigation {
+  display: flex;
+  padding: 0px 70px;
+}
+
+.navigation-list-sites {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+}
+
+ .navigation-list {
+  display: flex;
+  list-style: none;
+}
+
+.button-one {
+  display: inline-flex;
+  padding: 8px 50px;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  background-color: #756157;
+}
+
+
+
+
+
+
 /*=================================================== main =========================================================*/
 .main-index {
-
 }
 .sight {
   width: 576px;
@@ -79,23 +111,25 @@ img {
 }
 
 .sight-title {
-
+  text-align: center;
+  font-size: 30px;
   font-size: 21px;
-  line-height: 26px;
+  line-height: 36px;
   font-weight: 700;
   color: #000000;
 }
 
 .sight-discription {
-  font-size: 14px;
-  line-height: 26px;
+  text-align: center;
   font-weight: 400;
+  line-height: 26px;
   color: #333333;
-
 }
 /*  section-1  advantages */
+
 .advantages-list {
 display: flex;
+list-style: none;
 flex-wrap: wrap;
 }
 
@@ -108,9 +142,10 @@ flex-wrap: wrap;
 
 .advantages-title-city {        /* title */
   text-align: center;
-  font-size: 24px;
+  font-size: 30px;
+  font-style: normal;
   font-weight: 700;
-  line-height: 28px;
+  line-height: 36px;
   text-transform: uppercase;
 }
 
@@ -221,13 +256,14 @@ section .advantages-item-bridge {                 /*  мост  */
 
 .advantages-info {
   display: inline;
+  text-align: center;
   color: #ffffff;
-  background-color: ;
+  background-color:#000000 ;
 }
 .advantages-title-info {
-  text-align: center;
+
   width: 505px;
-  height: 72px;
+  margin: 0 auto;
   font-size: 30px;
   font-weight: 700;
   line-height: 36px;
@@ -236,6 +272,7 @@ section .advantages-item-bridge {                 /*  мост  */
 .advantages-discription-info {
   text-align: center;
   width: 490px;
+  margin: 0 auto;
   height: 26px;
   font-size: 22px;
   line-height: 26px;
@@ -245,13 +282,13 @@ section .advantages-item-bridge {                 /*  мост  */
 .advantages-service {
 
   text-align: center;
-  width: 576px;
-  margin: 60px auto 51px auto;
+
   padding: 0;
 
 }
-.advantages-list-servise {
+.advantages-list-service {
   display: flex;
+  list-style: none;
 }
    /*-------------------------------------------------/жилье/-------------------------------------------------*/
 
@@ -285,25 +322,60 @@ section .advantages-item-bridge {                 /*  мост  */
 };
 
 
-/* section-search */
+                                                  /* section-search */
 
-
+.search {
+  display: flex;
+  padding: 96px 304px;
+  width: 576px;
+  margin: 60px auto 51px auto;
+  text-align: center;
+}
 
 .search-title {
-
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: 700;
+  text-align: center;
+  color: #000000;
 }
 
 .search-description {
+  text-align: center;
+  font-weight: 400;
+  line-height: 26px;
+  color: #333333;
+}
 
+.button-two {
+  display: flex;
+  text-align: center;
+  padding: 8px 50px;
+  justify-content: center;
+  color: #ffffff;
+  background-color: #756157;
 }
 /* article-newsletter */
 
 .newsletter  {
+  display: flex;
 
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .newsletter-button  {      /* Кнопка  */
-display: inline-block;
+  display: inline-flex;
+  padding: 8px 50px;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  background-color: #82b3d3;
+}
+
+
+  /*display: inline-block;
 padding: 8px 50px;
 font-weight: 700;
 font-size: 20px;
@@ -318,29 +390,40 @@ border-radius: 4px;
 box-sizing: border-box;
 cursor: pointer;
 border-radius: 0 4px 4px 0;
-}
+}*/
 
 /* footer-social */
 
 
 .header-footer-social {     /* footer */
+  display: flex;
   width: 1200px;
   height: 120px;
+  padding: 40px 70px 30px 70px;
+  justify-content: center;
+
   color: #000000;
   background-color: #ffffff;
 }
 
-.footer-social-item-vkontakte {
+.footer-social-list {
+  display: flex;
+  list-style: none;
 
 }
-.footer-social-item-telegram {
 
+.footer-social-item-vkontakte {
+  display: flex;
+}
+.footer-social-item-telegram {
+  display: flex;
 }
 
 .footer-social-item-youtube {
-
+  display: flex;
 }
 
 .footer-contact-phone {
-
+  display: flex;
+  text-align: center;
 }
