@@ -1,0 +1,429 @@
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: italic;
+  font-weight: 400;
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans Narrow";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans Narrow";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
+  font-display: swap;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  font-family: "PT Sans", sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 400;
+  color: #333333;
+  background-color: #f2f2f2;
+  min-width: 1280px;
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+.visually-hidden {
+  display: none;
+}
+
+.page-header {
+
+}
+
+.navigation {
+  display: flex;
+  padding: 0px 70px;
+}
+
+.navigation-list-sites {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+}
+
+ .navigation-list {
+  display: flex;
+  list-style: none;
+}
+
+.button-one {
+  display: inline-flex;
+  padding: 8px 50px;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  background-color: #756157;
+}
+
+
+
+
+
+
+/*=================================================== main =========================================================*/
+.main-index {
+}
+.sight {
+  width: 576px;
+  margin: 60px auto 51px auto;
+  padding: 0;
+  text-align: center;
+}
+
+.sight-title {
+  text-align: center;
+  font-size: 30px;
+  font-size: 21px;
+  line-height: 36px;
+  font-weight: 700;
+  color: #000000;
+}
+
+.sight-discription {
+  text-align: center;
+  font-weight: 400;
+  line-height: 26px;
+  color: #333333;
+}
+/*  section-1  advantages */
+
+.advantages-list {
+display: flex;
+list-style: none;
+flex-wrap: wrap;
+}
+
+.advantages-item-city {                      /* небольшой городок */
+  width: 400px;
+  min-height: 385px;
+  color: #ffffff;
+  background-color: #83b3d3;
+}
+
+.advantages-title-city {        /* title */
+  text-align: center;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+.advantages-description-city  {               /* p */
+  text-align: center;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.advantages-list-hotel {            /* фото  */
+  width: auto;
+
+}
+ /* ------------------------------------небольшая площадь-----------------------*/
+.advantages-item-square {
+  width: 400px;
+  min-height: 385px;
+  color: #333333;
+  background-color: rgba(131, 179, 211, 0.12);
+}
+
+.advantages-title-square {             /* title */
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  text-transform: uppercase;
+  }
+.advantages-description-square {           /* P */
+  text-align: center;
+  font-size: 18px;
+  line-height: 21px;
+}
+  /* -----------------------------красивая дорога ----------------------------------*/
+.advantages-item-road {
+  width: 400px;
+  min-height: 385px;
+  color: #ffffff;
+  background-color: rgba(131, 179, 211, 0.20);
+}
+                                        /*  title  */
+.advantages-title-road {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: #000000;
+}
+                                      /*  P  */
+.advantages-description-road {
+  text-align: center;
+  font-size: 18px;
+  line-height: 21px;
+  color: #333333;
+}
+
+.advantages-item-tourist {                      /* мало туристов */
+  width: 400px;
+  min-height: 385px;
+  color: #ffffff;
+  background-color: rgba(131, 179, 211, 0.12);
+}
+                                                   /*  title   */
+.advantages-title-tourist {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: #000000;
+}
+                                                 /*  P  */
+.advantages-description-tourist {
+  text-align: center;
+  font-size: 18px;
+  line-height: 21px;
+  color: #333333;
+}
+
+.advantages-item-photoalbum {            /* photo */
+
+}
+
+section .advantages-item-bridge {                 /*  мост  */
+  width: 400px;
+  min-height: 385px;
+  color: #ffffff;
+  background-color: #83b3d3;
+
+}
+.advantages-title-bridge  {                 /* title */
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.advantages-description-bridge {            /* p */
+  text-align: center;
+  font-size: 18px;
+  line-height: 21px;
+  color: #ffffff;
+}
+/*============================================ / section 2 /==================================================*/
+
+.advantages-info {
+  display: inline;
+  text-align: center;
+  color: #ffffff;
+  background-color:#000000 ;
+}
+.advantages-title-info {
+
+  width: 505px;
+  margin: 0 auto;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  color: #000000;
+}
+.advantages-discription-info {
+  text-align: center;
+  width: 490px;
+  margin: 0 auto;
+  height: 26px;
+  font-size: 22px;
+  line-height: 26px;
+  color: #333;
+}
+  /* -----------------------------------section service    -------------------------------------*/
+.advantages-service {
+
+  text-align: center;
+
+  padding: 0;
+
+}
+.advantages-list-service {
+  display: flex;
+  list-style: none;
+}
+   /*-------------------------------------------------/жилье/-------------------------------------------------*/
+
+ .advantages-item {
+
+  width: 400px;
+  min-height: 385px;
+  color: #000000;
+  background-color: rgba(131, 179, 211, 0.12);
+ }
+.advantages-title {
+
+}
+.advantages-description {
+}
+     /*---------------------------------------------/     еда     /-----------------------------------------------*/
+.advantages-item-meal {
+  display: block;
+  width: 400px;
+  min-height: 385px;
+  color: #000000;
+  background-color:
+}
+.advantages-titles {
+
+}
+
+      /*--------------------------------------------/  сувениры  /---------------------------------------------------*/
+.advantages-item {
+
+};
+
+
+                                                  /* section-search */
+
+.search {
+  display: flex;
+  padding: 96px 304px;
+  width: 576px;
+  margin: 60px auto 51px auto;
+  text-align: center;
+}
+
+.search-title {
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: 700;
+  text-align: center;
+  color: #000000;
+}
+
+.search-description {
+  text-align: center;
+  font-weight: 400;
+  line-height: 26px;
+  color: #333333;
+}
+
+.button-two {
+  display: flex;
+  text-align: center;
+  padding: 8px 50px;
+  justify-content: center;
+  color: #ffffff;
+  background-color: #756157;
+}
+/* article-newsletter */
+
+.newsletter  {
+  display: flex;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.newsletter-button  {      /* Кнопка  */
+  display: inline-flex;
+  padding: 8px 50px;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  background-color: #82b3d3;
+}
+
+
+  /*display: inline-block;
+padding: 8px 50px;
+font-weight: 700;
+font-size: 20px;
+font-family: inherit;
+line-height: 36px;
+color: #ffffff;
+text-transform: uppercase;
+text-decoration: none;
+background-color: #82b3d3;
+text-align: center;
+border-radius: 4px;
+box-sizing: border-box;
+cursor: pointer;
+border-radius: 0 4px 4px 0;
+}*/
+
+/* footer-social */
+
+
+.header-footer-social {     /* footer */
+  display: flex;
+  width: 1200px;
+  height: 120px;
+  padding: 40px 70px 30px 70px;
+  justify-content: center;
+
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.footer-social-list {
+  display: flex;
+  list-style: none;
+
+}
+
+.footer-social-item-vkontakte {
+  display: flex;
+}
+.footer-social-item-telegram {
+  display: flex;
+}
+
+.footer-social-item-youtube {
+  display: flex;
+}
+
+.footer-contact-phone {
+  display: flex;
+  text-align: center;
+}
